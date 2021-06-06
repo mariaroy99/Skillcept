@@ -1,0 +1,744 @@
+.mediaViewInfo {
+	--web-view-name: aspirant;
+	--web-view-id: aspirant;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: aspirant;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#aspirant {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: coursedetail.html;
+	cursor: pointer;
+	--web-view-name: aspirant;
+	--web-view-id: aspirant;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+#Component_30__4 {
+	position: absolute;
+	width: 1932px;
+	height: 947px;
+	left: -12px;
+	top: 133px;
+	overflow: visible;
+}
+#Rectangle_33_bbq {
+	fill: rgba(240,244,249,1);
+}
+.Rectangle_33_bbq {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 921px;
+	left: 12px;
+	top: 0px;
+}
+#Upper_Content {
+	position: absolute;
+	width: 1920px;
+	height: 947px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Header_bbs {
+	position: absolute;
+	width: 1920px;
+	height: 100px;
+	left: 0px;
+	top: 52px;
+	overflow: visible;
+}
+#Rectangle_15_bbt {
+	fill: rgba(240,244,249,1);
+}
+.Rectangle_15_bbt {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+}
+#Component_11__4_bbu {
+	position: absolute;
+	width: 44px;
+	height: 44px;
+	left: 1502px;
+	top: 28px;
+	overflow: visible;
+}
+#Rectangle_14_bbv {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(189,189,189,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_14_bbv {
+	position: absolute;
+	overflow: visible;
+	width: 44px;
+	height: 44px;
+	left: 0px;
+	top: 0px;
+}
+#Component_10__2_bbw {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 10px;
+	top: 10px;
+	overflow: visible;
+}
+#Rectangle_12_bbx {
+	fill: rgba(255,255,255,0);
+}
+.Rectangle_12_bbx {
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	height: 24px;
+	left: 0px;
+	top: 0px;
+}
+#search_bby {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 4px;
+	top: 4px;
+	overflow: visible;
+}
+#Path_9_bbz {
+	fill: rgba(33,37,41,1);
+}
+.Path_9_bbz {
+	overflow: visible;
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_10_bb {
+	fill: rgba(33,37,41,1);
+}
+.Path_10_bb {
+	overflow: visible;
+	position: absolute;
+	width: 4.1px;
+	height: 4.1px;
+	left: 11.9px;
+	top: 11.9px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_9_bb {
+	position: absolute;
+	width: 260px;
+	height: 42px;
+	left: 1082px;
+	top: 35px;
+	overflow: visible;
+}
+#Home_bb {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(0,33,71,1);
+}
+#About_bb {
+	left: 71px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 48px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: about.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(0,33,71,1);
+}
+#Courses_bb {
+	left: 140px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: courses.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(0,33,71,1);
+}
+#Jobs__bb {
+	left: 226px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 35px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: jobs.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(0,33,71,1);
+}
+#Logo_bb {
+	position: absolute;
+	width: 218px;
+	height: 84px;
+	left: 365px;
+	top: 13px;
+	overflow: visible;
+}
+#skillcept_bb {
+	left: 88px;
+	top: 23px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Axiforma;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 29px;
+	color: rgba(0,33,71,1);
+	text-transform: lowercase;
+}
+#klipartzcom_bb {
+	position: absolute;
+	width: 84px;
+	height: 84px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#MY_DASHBOARD {
+	left: 449px;
+	top: 197px;
+	position: absolute;
+	overflow: visible;
+	width: 438px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Axiforma;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 51px;
+	color: rgba(96,96,96,1);
+	letter-spacing: 0.4px;
+}
+#JP {
+	position: absolute;
+	width: 94px;
+	height: 74px;
+	left: 24.806px;
+	top: 238.867px;
+	overflow: visible;
+}
+#Jake_Peralta {
+	left: 126px;
+	top: 256px;
+	position: absolute;
+	overflow: visible;
+	width: 97px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(96,96,96,1);
+	letter-spacing: 0.4px;
+}
+#ID1200px-Dunder_Mifflin_Incsvg {
+	position: absolute;
+	width: 192px;
+	height: 121px;
+	left: 1435px;
+	top: 818px;
+	overflow: visible;
+}
+#Google_ChromeScreenSnapz048 {
+	position: absolute;
+	width: 196px;
+	height: 196px;
+	left: 1667px;
+	top: 780px;
+	overflow: visible;
+}
+#Component_2__17 {
+	position: absolute;
+	width: 1920px;
+	height: 66px;
+	left: -8px;
+	top: 0px;
+	overflow: visible;
+}
+#Path_109 {
+	fill: rgba(79,131,204,1);
+}
+.Path_109 {
+	overflow: visible;
+	position: absolute;
+	width: 1920px;
+	height: 66px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_3_bcg {
+	position: absolute;
+	width: 132px;
+	height: 24px;
+	left: 1425px;
+	top: 12px;
+	overflow: visible;
+}
+#Component_5__2_bch {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_6_bci {
+	fill: rgba(255,255,255,0);
+}
+.Rectangle_6_bci {
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	height: 24px;
+	left: 0px;
+	top: 0px;
+}
+#logo-fb-simple_bcj {
+	position: absolute;
+	width: 10px;
+	height: 16px;
+	left: 7px;
+	top: 4px;
+	overflow: visible;
+}
+#Path_4_bck {
+	fill: rgba(33,37,41,1);
+}
+.Path_4_bck {
+	overflow: visible;
+	position: absolute;
+	width: 10px;
+	height: 16px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Component_6__2_bcl {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 36px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_10_bcm {
+	fill: rgba(255,255,255,0);
+}
+.Rectangle_10_bcm {
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	height: 24px;
+	left: 0px;
+	top: 0px;
+}
+#logo-pinterest_bcn {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 4px;
+	top: 4px;
+	overflow: visible;
+}
+#Path_8_bco {
+	fill: rgba(33,37,41,1);
+}
+.Path_8_bco {
+	overflow: visible;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Component_8__2_bcp {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 72px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_12_bcq {
+	fill: rgba(255,255,255,0);
+}
+.Rectangle_12_bcq {
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	height: 24px;
+	left: 0px;
+	top: 0px;
+}
+#logo-twitter_bcr {
+	position: absolute;
+	width: 16px;
+	height: 13px;
+	left: 4px;
+	top: 6px;
+	overflow: visible;
+}
+#Path_5_bcs {
+	fill: rgba(33,37,41,1);
+}
+.Path_5_bcs {
+	overflow: visible;
+	position: absolute;
+	width: 16px;
+	height: 13px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Component_7__2_bct {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 108px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_11_bcu {
+	fill: rgba(255,255,255,0);
+}
+.Rectangle_11_bcu {
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	height: 24px;
+	left: 0px;
+	top: 0px;
+}
+#logo-instagram_bcv {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 4px;
+	top: 4px;
+	overflow: visible;
+}
+#Ellipse_1_bcw {
+	fill: rgba(33,37,41,1);
+}
+.Ellipse_1_bcw {
+	position: absolute;
+	overflow: visible;
+	width: 1.92px;
+	height: 1.92px;
+	left: 11.185px;
+	top: 2.932px;
+}
+#Path_6_bcx {
+	fill: rgba(33,37,41,1);
+}
+.Path_6_bcx {
+	overflow: visible;
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	left: 4px;
+	top: 4px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_7_bcy {
+	fill: rgba(33,37,41,1);
+}
+.Path_7_bcy {
+	overflow: visible;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_30_bcz {
+	position: absolute;
+	width: 182px;
+	height: 24px;
+	left: 381px;
+	top: 21px;
+	overflow: visible;
+}
+#iconComponent_3__1_bc {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_6_bc {
+	fill: rgba(255,255,255,0);
+}
+.Rectangle_6_bc {
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	height: 24px;
+	left: 0px;
+	top: 0px;
+}
+#pin-3_bc {
+	position: absolute;
+	width: 13.902px;
+	height: 16.025px;
+	left: 5px;
+	top: 3px;
+	overflow: visible;
+}
+#Path_1_bc {
+	fill: rgba(33,37,41,1);
+}
+.Path_1_bc {
+	overflow: visible;
+	position: absolute;
+	width: 13.902px;
+	height: 16.025px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#ID63Victoria_StreetLondon_bc {
+	left: 27px;
+	top: 1px;
+	position: absolute;
+	overflow: visible;
+	width: 156px;
+	white-space: nowrap;
+	line-height: 17px;
+	margin-top: -1.5px;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(33,37,41,1);
+}
+#Group_31_bc {
+	position: absolute;
+	width: 130px;
+	height: 24px;
+	left: 700px;
+	top: 12px;
+	overflow: visible;
+}
+#iconComponent_3__1_bda {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_9_bc {
+	fill: rgba(255,255,255,0);
+}
+.Rectangle_9_bc {
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	height: 24px;
+	left: 0px;
+	top: 0px;
+}
+#letter_bc {
+	position: absolute;
+	width: 16px;
+	height: 14px;
+	left: 4px;
+	top: 5px;
+	overflow: visible;
+}
+#Path_2_bc {
+	fill: rgba(33,37,41,1);
+}
+.Path_2_bc {
+	overflow: visible;
+	position: absolute;
+	width: 16px;
+	height: 6.9px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_3_bda {
+	fill: rgba(33,37,41,1);
+}
+.Path_3_bda {
+	overflow: visible;
+	position: absolute;
+	width: 16px;
+	height: 9.3px;
+	left: 0px;
+	top: 4.7px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#eduroyahooin_bdb {
+	left: 27px;
+	top: 1px;
+	position: absolute;
+	overflow: visible;
+	width: 104px;
+	white-space: nowrap;
+	line-height: 17px;
+	margin-top: -1.5px;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(33,37,41,1);
+}
+#Icon_awesome-linkedin-in_bdc {
+	fill: rgba(0,0,0,1);
+}
+.Icon_awesome-linkedin-in_bdc {
+	mix-blend-mode: multiply;
+	overflow: visible;
+	position: absolute;
+	width: 17.043px;
+	height: 17.349px;
+	left: 1391.769px;
+	top: 13.651px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#ASPIRANT_bdd {
+	left: 152px;
+	top: 296px;
+	position: absolute;
+	overflow: visible;
+	width: 55px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Axiforma;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(51,49,49,1);
+}
+#Component_9__17 {
+	position: absolute;
+	width: 115px;
+	height: 44px;
+	left: 1374px;
+	top: 80px;
+	overflow: visible;
+}
+#Rectangle_14_bdf {
+	fill: rgba(0,47,108,1);
+}
+.Rectangle_14_bdf {
+	position: absolute;
+	overflow: visible;
+	width: 115px;
+	height: 44px;
+	left: 0px;
+	top: 0px;
+}
+#Group_4_bdg {
+	position: absolute;
+	width: 48px;
+	height: 21px;
+	left: 33.5px;
+	top: 10.294px;
+	overflow: visible;
+}
+#Search_bdh {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 49px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+}

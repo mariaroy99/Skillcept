@@ -1,0 +1,1224 @@
+.mediaViewInfo {
+	--web-view-name: Login;
+	--web-view-id: Login;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Login;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Login {
+	position: absolute;
+	width: 1920px;
+	height: 992px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: about.html;
+	cursor: pointer;
+	--web-view-name: Login;
+	--web-view-id: Login;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+#Component_2__8 {
+	position: absolute;
+	width: 1920px;
+	height: 48px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Path_94 {
+	fill: rgba(79,131,204,1);
+}
+.Path_94 {
+	overflow: visible;
+	position: absolute;
+	width: 1920px;
+	height: 48px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_3_q {
+	position: absolute;
+	width: 132px;
+	height: 24px;
+	left: 1417px;
+	top: 12px;
+	overflow: visible;
+}
+#Component_5__2_r {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_6_u {
+	fill: rgba(255,255,255,0);
+}
+.Rectangle_6_u {
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	height: 24px;
+	left: 0px;
+	top: 0px;
+}
+#logo-fb-simple_u {
+	position: absolute;
+	width: 10px;
+	height: 16px;
+	left: 7px;
+	top: 4px;
+	overflow: visible;
+}
+#Path_4_u {
+	fill: rgba(33,37,41,1);
+}
+.Path_4_u {
+	overflow: visible;
+	position: absolute;
+	width: 10px;
+	height: 16px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Component_6__2_v {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 36px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_10_w {
+	fill: rgba(255,255,255,0);
+}
+.Rectangle_10_w {
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	height: 24px;
+	left: 0px;
+	top: 0px;
+}
+#logo-pinterest_x {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 4px;
+	top: 4px;
+	overflow: visible;
+}
+#Path_8_y {
+	fill: rgba(33,37,41,1);
+}
+.Path_8_y {
+	overflow: visible;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Component_8__2_z {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 72px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_12_d {
+	fill: rgba(255,255,255,0);
+}
+.Rectangle_12_d {
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	height: 24px;
+	left: 0px;
+	top: 0px;
+}
+#logo-twitter_b {
+	position: absolute;
+	width: 16px;
+	height: 13px;
+	left: 4px;
+	top: 6px;
+	overflow: visible;
+}
+#Path_5_b {
+	fill: rgba(33,37,41,1);
+}
+.Path_5_b {
+	overflow: visible;
+	position: absolute;
+	width: 16px;
+	height: 13px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Component_7__2_b {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 108px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_11_b {
+	fill: rgba(255,255,255,0);
+}
+.Rectangle_11_b {
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	height: 24px;
+	left: 0px;
+	top: 0px;
+}
+#logo-instagram_ {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 4px;
+	top: 4px;
+	overflow: visible;
+}
+#Ellipse_1_ {
+	fill: rgba(33,37,41,1);
+}
+.Ellipse_1_ {
+	position: absolute;
+	overflow: visible;
+	width: 1.92px;
+	height: 1.92px;
+	left: 11.185px;
+	top: 2.932px;
+}
+#Path_6_ {
+	fill: rgba(33,37,41,1);
+}
+.Path_6_ {
+	overflow: visible;
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	left: 4px;
+	top: 4px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_7_ {
+	fill: rgba(33,37,41,1);
+}
+.Path_7_ {
+	overflow: visible;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_30_ {
+	position: absolute;
+	width: 193px;
+	height: 24px;
+	left: 375px;
+	top: 12px;
+	overflow: visible;
+}
+#iconComponent_3__1_b {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_6_b {
+	fill: rgba(255,255,255,0);
+}
+.Rectangle_6_b {
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	height: 24px;
+	left: 0px;
+	top: 0px;
+}
+#pin-3_c {
+	position: absolute;
+	width: 13.902px;
+	height: 16.025px;
+	left: 5px;
+	top: 3px;
+	overflow: visible;
+}
+#Path_1_d {
+	fill: rgba(33,37,41,1);
+}
+.Path_1_d {
+	overflow: visible;
+	position: absolute;
+	width: 13.902px;
+	height: 16.025px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#ID63_Victoria_Street__London {
+	left: 27px;
+	top: 1px;
+	position: absolute;
+	overflow: visible;
+	width: 167px;
+	white-space: nowrap;
+	line-height: 17px;
+	margin-top: -1.5px;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(33,37,41,1);
+}
+#Group_31_f {
+	position: absolute;
+	width: 130px;
+	height: 24px;
+	left: 692px;
+	top: 12px;
+	overflow: visible;
+}
+#iconComponent_3__1_i {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_9_h {
+	fill: rgba(255,255,255,0);
+}
+.Rectangle_9_h {
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	height: 24px;
+	left: 0px;
+	top: 0px;
+}
+#letter_j {
+	position: absolute;
+	width: 16px;
+	height: 14px;
+	left: 4px;
+	top: 5px;
+	overflow: visible;
+}
+#Path_2_j {
+	fill: rgba(33,37,41,1);
+}
+.Path_2_j {
+	overflow: visible;
+	position: absolute;
+	width: 16px;
+	height: 6.9px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_3_k {
+	fill: rgba(33,37,41,1);
+}
+.Path_3_k {
+	overflow: visible;
+	position: absolute;
+	width: 16px;
+	height: 9.3px;
+	left: 0px;
+	top: 4.7px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#eduroyahooin_l {
+	left: 27px;
+	top: 1px;
+	position: absolute;
+	overflow: visible;
+	width: 104px;
+	white-space: nowrap;
+	line-height: 17px;
+	margin-top: -1.5px;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(33,37,41,1);
+}
+#Header_m {
+	position: absolute;
+	width: 1920px;
+	height: 100px;
+	left: 0px;
+	top: 50px;
+	overflow: visible;
+}
+#Rectangle_15_n {
+	fill: rgba(240,244,249,1);
+}
+.Rectangle_15_n {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+}
+#Component_9__6_p {
+	position: absolute;
+	width: 115px;
+	height: 44px;
+	left: 1370px;
+	top: 26px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: signup.html;
+	cursor: pointer;
+}
+#Rectangle_14_p {
+	fill: rgba(0,47,108,1);
+}
+.Rectangle_14_p {
+	position: absolute;
+	overflow: visible;
+	width: 115px;
+	height: 44px;
+	left: 0px;
+	top: 0px;
+}
+#Group_4_q {
+	position: absolute;
+	width: 56px;
+	height: 21px;
+	left: 29.5px;
+	top: 10.294px;
+	overflow: visible;
+}
+#Sign_Up {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 57px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+}
+#Component_11__4_s {
+	position: absolute;
+	width: 44px;
+	height: 44px;
+	left: 1501px;
+	top: 26px;
+	overflow: visible;
+}
+#Rectangle_14_t {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(189,189,189,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_14_t {
+	position: absolute;
+	overflow: visible;
+	width: 44px;
+	height: 44px;
+	left: 0px;
+	top: 0px;
+}
+#Component_10__2_u {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 10px;
+	top: 10px;
+	overflow: visible;
+}
+#Rectangle_12_v {
+	fill: rgba(255,255,255,0);
+}
+.Rectangle_12_v {
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	height: 24px;
+	left: 0px;
+	top: 0px;
+}
+#search_w {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 4px;
+	top: 4px;
+	overflow: visible;
+}
+#Path_9_x {
+	fill: rgba(33,37,41,1);
+}
+.Path_9_x {
+	overflow: visible;
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_10_y {
+	fill: rgba(33,37,41,1);
+}
+.Path_10_y {
+	overflow: visible;
+	position: absolute;
+	width: 4.101px;
+	height: 4.1px;
+	left: 11.9px;
+	top: 11.9px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_9_z {
+	position: absolute;
+	width: 260px;
+	height: 42px;
+	left: 1073px;
+	top: 29px;
+	overflow: visible;
+}
+#Home_ {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(0,33,71,1);
+}
+#About_ {
+	left: 71px;
+	top: 3px;
+	position: absolute;
+	overflow: visible;
+	width: 48px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: about.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(0,33,71,1);
+}
+#Courses_a {
+	left: 140px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: courses.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(0,33,71,1);
+}
+#Jobs__ {
+	left: 226px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 35px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: jobs.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(0,33,71,1);
+}
+#Logo_ {
+	position: absolute;
+	width: 258px;
+	height: 52px;
+	left: 374px;
+	top: 22px;
+	overflow: visible;
+}
+#Group_8_ {
+	position: absolute;
+	width: 66px;
+	height: 52px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_6_ {
+	position: absolute;
+	width: 33.222px;
+	height: 51.999px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Path_17_ {
+	fill: rgba(16,56,103,1);
+}
+.Path_17_ {
+	overflow: visible;
+	position: absolute;
+	width: 33.222px;
+	height: 42.704px;
+	left: 0px;
+	top: 9.296px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_18_ {
+	fill: rgba(253,200,0,1);
+}
+.Path_18_ {
+	overflow: visible;
+	position: absolute;
+	width: 31.054px;
+	height: 14.182px;
+	left: 2.167px;
+	top: 4.629px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_19_ {
+	fill: rgba(190,197,208,1);
+}
+.Path_19_ {
+	overflow: visible;
+	position: absolute;
+	width: 28.872px;
+	height: 17.032px;
+	left: 4.349px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_7_a {
+	position: absolute;
+	width: 33.222px;
+	height: 51.999px;
+	left: 32.778px;
+	top: 0.001px;
+	overflow: visible;
+}
+#Path_20_b {
+	fill: rgba(0,33,71,1);
+}
+.Path_20_b {
+	overflow: visible;
+	position: absolute;
+	width: 33.222px;
+	height: 42.704px;
+	left: 0px;
+	top: 9.295px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_21_c {
+	fill: rgba(253,200,0,1);
+}
+.Path_21_c {
+	overflow: visible;
+	position: absolute;
+	width: 31.054px;
+	height: 14.182px;
+	left: 0px;
+	top: 4.629px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_22_d {
+	fill: rgba(190,197,208,1);
+}
+.Path_22_d {
+	overflow: visible;
+	position: absolute;
+	width: 28.872px;
+	height: 17.032px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#For_education_e {
+	left: 78px;
+	top: 9px;
+	position: absolute;
+	overflow: visible;
+	width: 181px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: rgba(0,33,71,1);
+	text-transform: uppercase;
+}
+#Component_30__3 {
+	position: absolute;
+	width: 1920px;
+	height: 1457px;
+	left: 0px;
+	top: 119px;
+	overflow: visible;
+}
+#Rectangle_33 {
+	fill: rgba(240,244,249,1);
+}
+.Rectangle_33 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 1457px;
+	left: 0px;
+	top: 0px;
+}
+#LOG_IN_ {
+	left: 860px;
+	top: 111px;
+	position: absolute;
+	overflow: visible;
+	width: 189px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 60px;
+	color: rgba(5,16,35,1);
+}
+#Group_37 {
+	position: absolute;
+	width: 1394px;
+	height: 529px;
+	left: 248px;
+	top: 362px;
+	overflow: visible;
+}
+#Path_108 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(189,189,189,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_108 {
+	overflow: visible;
+	position: absolute;
+	width: 1394px;
+	height: 529px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_awesome-google {
+	fill: rgba(0,47,108,1);
+}
+.Icon_awesome-google {
+	overflow: visible;
+	position: absolute;
+	width: 34.313px;
+	height: 34.875px;
+	left: 601.646px;
+	top: 325.562px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_simple-linkedin {
+	fill: rgba(0,47,107,1);
+}
+.Icon_simple-linkedin {
+	overflow: visible;
+	position: absolute;
+	width: 36px;
+	height: 36px;
+	left: 694px;
+	top: 324.437px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_simple-facebook {
+	fill: rgba(0,47,108,1);
+}
+.Icon_simple-facebook {
+	overflow: visible;
+	position: absolute;
+	width: 35.997px;
+	height: 35.779px;
+	left: 788.042px;
+	top: 325.562px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Component_39__4 {
+	position: absolute;
+	width: 488px;
+	height: 56px;
+	left: 716px;
+	top: 411px;
+	overflow: visible;
+}
+#Rectangle_47 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_47 {
+	position: absolute;
+	overflow: visible;
+	width: 488px;
+	height: 56px;
+	left: 0px;
+	top: 0px;
+}
+#Component_39__5 {
+	position: absolute;
+	width: 488px;
+	height: 56px;
+	left: 716px;
+	top: 539px;
+	overflow: visible;
+}
+#Rectangle_47_q {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_47_q {
+	position: absolute;
+	overflow: visible;
+	width: 488px;
+	height: 56px;
+	left: 0px;
+	top: 0px;
+}
+#Password {
+	left: 27px;
+	top: 7px;
+	position: absolute;
+	overflow: visible;
+	width: 105px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(124,130,137,1);
+}
+#Email_Id {
+	left: 741px;
+	top: 423px;
+	position: absolute;
+	overflow: visible;
+	width: 89px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(124,130,137,1);
+}
+#forgot_password {
+	left: 884px;
+	top: 621px;
+	position: absolute;
+	overflow: visible;
+	width: 154px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(19,37,59,1);
+}
+#Icon_awesome-linkedin-in_u {
+	fill: rgba(0,0,0,1);
+}
+.Icon_awesome-linkedin-in_u {
+	overflow: visible;
+	position: absolute;
+	width: 17.252px;
+	height: 14.223px;
+	left: 1385.769px;
+	top: 16.889px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Component_9__16 {
+	position: absolute;
+	width: 393px;
+	height: 52px;
+	left: 764px;
+	top: 756px;
+	overflow: visible;
+}
+#Component_142__1 {
+	position: absolute;
+	width: 393px;
+	height: 52px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_14_x {
+	fill: rgba(0,47,108,1);
+}
+.Rectangle_14_x {
+	position: absolute;
+	overflow: visible;
+	width: 393px;
+	height: 52px;
+	left: 0px;
+	top: 0px;
+}
+#Group_4_z {
+	position: absolute;
+	width: 58px;
+	height: 16px;
+	left: 168px;
+	top: 19px;
+	overflow: visible;
+}
+#LOG_IN {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 59px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Axiforma;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(228,228,239,1);
+}
+#Header_ {
+	position: absolute;
+	width: 1920px;
+	height: 100px;
+	left: 0px;
+	top: 50px;
+	overflow: visible;
+}
+#Path_77_ {
+	fill: rgba(240,244,249,1);
+}
+.Path_77_ {
+	overflow: visible;
+	position: absolute;
+	width: 1920px;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Component_9__6_ {
+	position: absolute;
+	width: 115px;
+	height: 44px;
+	left: 1371px;
+	top: 28px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: signup.html;
+	cursor: pointer;
+}
+#Rectangle_14_ {
+	fill: rgba(0,47,108,1);
+}
+.Rectangle_14_ {
+	position: absolute;
+	overflow: visible;
+	width: 115px;
+	height: 44px;
+	left: 0px;
+	top: 0px;
+}
+#Group_4_ {
+	position: absolute;
+	width: 54px;
+	height: 21px;
+	left: 30.5px;
+	top: 10.294px;
+	overflow: visible;
+}
+#Sign_up_ {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 55px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: signup.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(254,254,254,1);
+}
+#Component_11__4_ {
+	position: absolute;
+	width: 44px;
+	height: 44px;
+	left: 1502px;
+	top: 28px;
+	overflow: visible;
+}
+#Rectangle_14_a {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(189,189,189,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_14_a {
+	position: absolute;
+	overflow: visible;
+	width: 44px;
+	height: 44px;
+	left: 0px;
+	top: 0px;
+}
+#Component_10__2_ {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 10px;
+	top: 10px;
+	overflow: visible;
+}
+#Rectangle_12_e {
+	fill: rgba(255,255,255,0);
+}
+.Rectangle_12_e {
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	height: 24px;
+	left: 0px;
+	top: 0px;
+}
+#search_a {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 4px;
+	top: 4px;
+	overflow: visible;
+}
+#Path_9_b {
+	fill: rgba(33,37,41,1);
+}
+.Path_9_b {
+	overflow: visible;
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_10_c {
+	fill: rgba(33,37,41,1);
+}
+.Path_10_c {
+	overflow: visible;
+	position: absolute;
+	width: 4.101px;
+	height: 4.1px;
+	left: 11.9px;
+	top: 11.9px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_9_d {
+	position: absolute;
+	width: 267px;
+	height: 42px;
+	left: 1052px;
+	top: 39px;
+	overflow: visible;
+}
+#Home_e {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(0,33,71,1);
+}
+#Jobs__f {
+	left: 233px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 35px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: jobs.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(0,33,71,1);
+}
+#About_g {
+	left: 73px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 48px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(0,33,71,1);
+}
+#Courses_h {
+	left: 144px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: courses.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(0,33,71,1);
+}
+#Logo_i {
+	position: absolute;
+	width: 212px;
+	height: 84px;
+	left: 369px;
+	top: 11px;
+	overflow: visible;
+}
+#skillcept_j {
+	left: 84px;
+	top: 25px;
+	position: absolute;
+	overflow: visible;
+	width: 129px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Axiforma;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 29px;
+	color: rgba(0,33,71,1);
+	text-transform: lowercase;
+}
+#klipartzcom_k {
+	position: absolute;
+	width: 84px;
+	height: 84px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
